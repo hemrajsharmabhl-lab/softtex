@@ -621,8 +621,6 @@ Public Class PlanningGatway
         End Using
     End Sub
 #End Region
-
-
     Private Sub AccordionControl1_ElementClick(sender As Object, e As DevExpress.XtraBars.Navigation.ElementClickEventArgs) Handles AccordionControl1.ElementClick
         _lastSelectedMenu = e.Element
         _isMenuFocused = False
@@ -636,8 +634,6 @@ Public Class PlanningGatway
         'AccordionControl1.Invalidate()
 
     End Sub
-
-
     Private Sub HandleAccordionSelection(elem As DevExpress.XtraBars.Navigation.AccordionControlElement)
         If elem IsNot Nothing Then
             _lastSelectedMenu = elem
@@ -653,7 +649,6 @@ Public Class PlanningGatway
             AccordionControl1.Invalidate()
         End If
     End Sub
-
     Private Sub PlanningGatway_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Location = New Point(0, 0)
 
@@ -1127,8 +1122,10 @@ Public Class PlanningGatway
         GridView4.Columns("Balance").Summary.Add(New GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Balance", "{0}"))
         GridControl3.Focus()
         GridView4.Focus()
+        GridView4.OptionsBehavior.AlignGroupSummaryInGroupRow = DevExpress.Utils.DefaultBoolean.[True]
 
-
+        GridView4.GroupSummary.Add(New DevExpress.XtraGrid.GridGroupSummaryItem() With {.FieldName = "Balance", .SummaryType = DevExpress.Data.SummaryItemType.Sum, .ShowInGroupColumnFooter = GridView4.Columns("Balance")})
+        GridView4.Appearance.GroupRow.BackColor = Color.LightGreen
         'GridControl3.MainView = TileView1
 
         'TileView1.Columns.AddVisible("PartyName")
@@ -2582,7 +2579,6 @@ Public Class PlanningGatway
 
 #End Region
 
-
 #Region "Factory Menu"
     Private Sub _ProcessStkLblDiplay(ByVal _Visuable As Boolean)
         Lbl_ProcessStk.Visible = _Visuable
@@ -3521,8 +3517,6 @@ Public Class PlanningGatway
                 End If
 #End Region
             ElseIf SelectionOfView = "Process" Then
-
-
 #Region "Process"
                 Dim _FilterString As String = ""
                 Dim ProcessCode As String = ""
@@ -5946,7 +5940,7 @@ Public Class PlanningGatway
                     GridView1.Columns("Process").Visible = False
                 ElseIf NoOfstage = 2 Then
                     GridView1.Columns("Process").Visible = False
-                    GridView1.Columns("Item").Visible = False
+                    GridView1.Columns("Item").Visible = True
                 End If
 
                 GridView1.Appearance.FocusedRow.BackColor = GridView1.Appearance.FocusedRow.BackColor.LightBlue
@@ -5964,6 +5958,12 @@ Public Class PlanningGatway
                 Else
                     GridView1.Focus()
                     GridView1.FocusedRowHandle = FocusRow
+                    'GridView1.FocusedRowHandle = GridView1.VisibleColumns.Count - 1
+                    Dim lastColumnIndex As Integer = GridView1.VisibleColumns.Count - 1
+
+                    If lastColumnIndex >= 0 Then
+                        GridView1.FocusedColumn = GridView1.VisibleColumns(lastColumnIndex)
+                    End If
                 End If
 
             End If
@@ -7056,7 +7056,6 @@ Public Class PlanningGatway
     End Function
 #End Region
 
-
 #Region " Grid Second Key Event"
     Dim validTypes As String() = {"Req", "Wash", "Dyn", "Stenter", "Mechan", "Fold", "TblChk", "RtMtr", "Ready", "Decision"}
     Private Sub CreateDropDownMenu()
@@ -7157,10 +7156,11 @@ Public Class PlanningGatway
             If GridView1 IsNot Nothing AndAlso GridView1.FocusedColumn IsNot Nothing Then
                 _ActivatedColName = GridView1.FocusedColumn.FieldName
             End If
-            SelectionType = _ActivatedColName.ToString
+
             _RedyeningShadeCode = ""
             FilterBookVno = ""
             If SelectionOfView = "Outstanding" Then
+                SelectionType = _ActivatedColName.ToString
 #Region "Outstanding"
                 If e.KeyCode = Keys.F2 Then
 
@@ -7210,6 +7210,7 @@ Public Class PlanningGatway
                 End If
 #End Region
             ElseIf SelectionOfView = "Factory" Then
+                SelectionType = _ActivatedColName.ToString
 #Region "Factory"
                 If e.KeyCode = Keys.Enter Then
                     _StgIRowNo = GridView1.FocusedRowHandle
@@ -7362,6 +7363,7 @@ Public Class PlanningGatway
 
 #End Region
             ElseIf SelectionOfView = "Producation DashBoard" Then
+                SelectionType = _ActivatedColName.ToString
 #Region "Producation DashBoard"
                 If e.KeyCode = Keys.Enter Then
                     _StgIRowNo = GridView1.FocusedRowHandle
@@ -7814,6 +7816,7 @@ Public Class PlanningGatway
 
 
 #End Region
+
     Private Sub Btn_Exl_Click(sender As Object, e As EventArgs) Handles Btn_Exl.Click
         _DevExpressExcelExport(GridControl3)
     End Sub
