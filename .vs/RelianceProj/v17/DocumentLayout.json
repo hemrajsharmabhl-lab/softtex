@@ -1,24 +1,26 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\",
+  "WorkspaceRootPath": "D:\\RelianceProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|c:\\users\\mahaveer\\onedrive\\documents\\github\\softtex\\relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|d:\\relianceproj\\relianceproj\\planning gatway\\planninggatway.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\planning gatway\\planninggatway.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|c:\\users\\mahaveer\\onedrive\\documents\\github\\softtex\\relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-=======
-  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RelianceProj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|D:\\RelianceProj\\relianceproj\\planning gatway\\planninggatway.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\planning gatway\\planninggatway.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|c:\\users\\hp\\documents\\github\\softtex\\relianceproj\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|eda661ea-dc61-4750-b3a5-f6e9c74060f5"
->>>>>>> 65dc1c61717c8dd41864ef28137314f265794eb8
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|D:\\RelianceProj\\relianceproj\\main_mdi_frm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\main_mdi_frm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|D:\\RelianceProj\\relianceproj\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|D:\\RelianceProj\\relianceproj\\main_mdi_frm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\main_mdi_frm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,60 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\RelianceProj\\RelianceProj\\App.config",
+              "RelativeDocumentMoniker": "RelianceProj\\App.config",
+              "ToolTip": "D:\\RelianceProj\\RelianceProj\\App.config",
+              "RelativeToolTip": "RelianceProj\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-16T05:48:22.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewQualityPlanEntry.vb",
-              "DocumentMoniker": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "RelativeDocumentMoniker": "RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "ToolTip": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "RelativeToolTip": "RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAMAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Main_MDI_Frm.vb",
+              "DocumentMoniker": "D:\\RelianceProj\\RelianceProj\\Main_MDI_Frm.vb",
+              "RelativeDocumentMoniker": "RelianceProj\\Main_MDI_Frm.vb",
+              "ToolTip": "D:\\RelianceProj\\RelianceProj\\Main_MDI_Frm.vb",
+              "RelativeToolTip": "RelianceProj\\Main_MDI_Frm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-17T05:37:17.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T04:40:13.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main_MDI_Frm.vb [Design]",
+              "DocumentMoniker": "D:\\RelianceProj\\RelianceProj\\Main_MDI_Frm.vb",
+              "RelativeDocumentMoniker": "RelianceProj\\Main_MDI_Frm.vb",
+              "ToolTip": "D:\\RelianceProj\\RelianceProj\\Main_MDI_Frm.vb [Design]",
+              "RelativeToolTip": "RelianceProj\\Main_MDI_Frm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-16T04:40:04.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NewQualityPlanEntry.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "RelativeDocumentMoniker": "RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb",
-              "ToolTip": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb [Design]",
-              "RelativeToolTip": "RelianceProj\\Planning Gatway\\NewQualityPlanEntry.vb [Design]",
+              "Title": "PlanningGatway.vb [Design]",
+              "DocumentMoniker": "D:\\RelianceProj\\RelianceProj\\Planning Gatway\\PlanningGatway.vb",
+              "RelativeDocumentMoniker": "RelianceProj\\Planning Gatway\\PlanningGatway.vb",
+              "ToolTip": "D:\\RelianceProj\\RelianceProj\\Planning Gatway\\PlanningGatway.vb [Design]*",
+              "RelativeToolTip": "RelianceProj\\Planning Gatway\\PlanningGatway.vb [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-17T05:35:29.224Z",
+              "WhenOpened": "2025-10-15T10:00:56.116Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RelianceProj",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\RelianceProj\\RelianceProj.vbproj",
-              "RelativeDocumentMoniker": "RelianceProj\\RelianceProj.vbproj",
-              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\RelianceProj\\RelianceProj.vbproj",
-              "RelativeToolTip": "RelianceProj\\RelianceProj.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-16T06:10:06.021Z",
+              "Title": "PlanningGatway.vb",
+              "DocumentMoniker": "D:\\RelianceProj\\RelianceProj\\Planning Gatway\\PlanningGatway.vb",
+              "RelativeDocumentMoniker": "RelianceProj\\Planning Gatway\\PlanningGatway.vb",
+              "ToolTip": "D:\\RelianceProj\\RelianceProj\\Planning Gatway\\PlanningGatway.vb*",
+              "RelativeToolTip": "RelianceProj\\Planning Gatway\\PlanningGatway.vb*",
+              "ViewState": "AgIAAIAgAAAAAAAAAAAswIcbAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-15T09:51:53.342Z",
               "EditorCaption": ""
->>>>>>> 65dc1c61717c8dd41864ef28137314f265794eb8
             }
           ]
         }
