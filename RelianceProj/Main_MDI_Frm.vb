@@ -6,7 +6,7 @@
 
     Private Sub Main_MDI_Frm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SELECT_DATABSE()
-        TextBox1.Text = "Data Source=DESKTOP-N7G62DM\HP;database=Accounts24_342025104153;Integrated Security=SSPI;persist security info=True"
+        TextBox1.Text = "Data Source=DESKTOP-JJFE5D4;database=Accounts24_342025104153;Integrated Security=SSPI;persist security info=True"
     End Sub
 
 #Region "Track Last Open Path"

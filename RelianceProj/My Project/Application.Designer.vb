@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.RelianceProj.Form1
+            Me.MainForm = Global.RelianceProj.Main_MDI_Frm
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
