@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\mahaveer\\OneDrive\\Documents\\GitHub\\softtex\\",
   "Documents": [
     {
@@ -9,6 +10,15 @@
     {
       "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|c:\\users\\mahaveer\\onedrive\\documents\\github\\softtex\\relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|solutionrelative:relianceproj\\planning gatway\\newqualityplanentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+=======
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RelianceProj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63310AC6-1E5A-4511-98D1-137874085C8E}|RelianceProj\\RelianceProj.vbproj|c:\\users\\hp\\documents\\github\\softtex\\relianceproj\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|eda661ea-dc61-4750-b3a5-f6e9c74060f5"
+>>>>>>> 65dc1c61717c8dd41864ef28137314f265794eb8
     }
   ],
   "DocumentGroupContainers": [
@@ -18,6 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -56,6 +67,21 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelianceProj",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\RelianceProj\\RelianceProj.vbproj",
+              "RelativeDocumentMoniker": "RelianceProj\\RelianceProj.vbproj",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\softtex\\RelianceProj\\RelianceProj.vbproj",
+              "RelativeToolTip": "RelianceProj\\RelianceProj.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-16T06:10:06.021Z",
+              "EditorCaption": ""
+>>>>>>> 65dc1c61717c8dd41864ef28137314f265794eb8
             }
           ]
         }
